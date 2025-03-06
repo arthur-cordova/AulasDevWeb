@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam sozinhas</h1>
+        <picture>
+            <source media="(max-width: 580px)" srcset="./Imagens/carroP.jpeg" type="image/jpeg">
+            <source media="(max-width: 720px)" srcset="./Imagens/carroM.png" type="image/png">
+            <img src="./Imagens/carroG.webp" alt="imagem flexivel">
+        </picture>
+    
+    <h1>Áudios</h1>
+        <audio src="./media/Press Fuse.mp3" controls></audio>
+</body>
+</html>
