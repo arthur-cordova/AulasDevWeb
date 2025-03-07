@@ -1,0 +1,19 @@
+body {
+    background-color: brown;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: yellow;
+    background-color: darkgray;
+}
+
+h2 {
+    color: gold;
+}
+
+p {
+    text-align: justify;
+    color: white;
+}
