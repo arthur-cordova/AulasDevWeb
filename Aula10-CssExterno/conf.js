@@ -1,9 +1,15 @@
-function amarelo() {
-    let texto = document.getElementById("box0");
-    texto.style.backgroundColor = "yellow";
+function yellow() {
+    let text = document.getElementById("box0");
+    let text2 = document.getElementById("box1");
+    console.log(text);
+    console.log(text2);
+    text.style.backgroundColor = "yellow";
+    text2.style.backgroundColor = "yellow";
 }
 
-function branco() {
-    let texto = document.getElementsByClassName("caixa2");
-    texto.style.backgroundColor = "yellow";
+function white() {
+    const text = document.getElementsByClassName("boxes");
+    for(let i=0; i<text.length; i++) {
+        text[i].style.backgroundColor= "white";
+    }
 }
