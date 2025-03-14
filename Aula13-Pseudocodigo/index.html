@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIVS</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: lightgray;
+            border: 5px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            justify-content: center;
+        }
+
+        .posicao {
+            width: 600px;
+            height: 200px;
+            display: flex;
+            background-color: blue;
+        }
+
+        div:hover {
+            background-color: yellow;
+            color: black;
+            border: 5px dashed blue;
+        }
+
+        #btn{
+            width: 170px;
+            height: 95px;
+            border-radius: 15px;
+            background-color: blue;
+        }
+        #btn:hover{
+            background-color: chartreuse;
+            width: 180px;
+            height: 105px;
+            box-shadow: 2px 2px 5px black;
+        }    
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>    
+    <div id="d3">03</div>
+
+    <button id="btn"><a href="#">clique aqui</a></button>
+</body>
+</html>
