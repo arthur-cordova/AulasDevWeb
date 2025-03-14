@@ -1,0 +1,14 @@
+/* por id */
+#principal {
+    background-color: red;
+}
+
+/* por tag */
+h2 {
+    color: aqua;
+}
+
+/* por classe */
+.basico {
+    color: darkgreen;
+}
