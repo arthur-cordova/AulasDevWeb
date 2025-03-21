@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 22px;
+        }
+        h1 {
+            font-size: 2.2em;
+        }
+        @media only screen and (max-width: 1080px) {
+            body {
+                background-color: cadetblue;
+                font-size: 18px;
+            }
+            h1 {
+                font-size: 2.0em;
+            }
+            p::after {
+                content: " Tela pequena (até 1080px)";
+            }
+        }
+        @media only screen and (max-width: 720px) {
+            body {
+                background-color: darkkhaki;
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            p::after {
+                content: " Tela pequena (até 720px)";
+            }
+        }
+        @media only screen and (max-width: 540px) {
+            body {
+                background-color: #ffcccb;
+                font-size: 14px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            p::after {
+                content: " Tela pequena (até 540px)";
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Testando Media Queries</h1>
+    <p>Redimensione a janela para ver as mudanças:</p>
+</body>
+</html>
