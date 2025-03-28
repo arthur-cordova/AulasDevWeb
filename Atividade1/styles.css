@@ -1,0 +1,19 @@
+nav {
+    background-color: blueviolet;
+}
+.navbar-brand {
+    color: aliceblue;
+}
+body {
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+}
+.card {
+    background-color: blueviolet;
+}
+.card-text {
+    color: aliceblue;
+}
+footer {
+    background-color: blueviolet;
+}
