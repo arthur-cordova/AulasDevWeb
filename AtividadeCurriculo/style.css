@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 100vh;
+}
+.esquerda {
+    display: flex;
+    flex: 280px;
+    background-color: darkcyan;
+}
+.direita {
+    flex: auto;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+.imagem-container {
+    justify-content: center;
+    align-self: center;
+}
+.imagem {
+    border-radius: 100%;
+}
+@media (max-width: 1080px) {
+    .flex-container {
+        flex-direction: column-reverse;
+    }
+    .esquerda {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="280px" viewBox="0 0 280 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy 13</title>
+    <g id="Artboard-Copy-13" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#B2C2FD" x="0" y="0" width="280" height="280"></rect>
+        <g id="icons8-person-copy-2" transform="translate(55.000000, 49.000000)" fill="#315AFF" fill-rule="nonzero">
+            <rect id="Rectangle" opacity="0.35" x="37.77842" y="122.776108" width="94.4431599" height="37.777264"></rect>
+            <circle id="Oval" opacity="0.35" cx="85" cy="47.22158" r="47.22158"></circle>
+            <path d="M169.460518,145.499132 C166.88222,132.040982 154.349612,122.776108 140.64591,122.776108 L122.560045,122.776108 C113.937384,134.184842 100.394235,141.66474 85,141.66474 C69.6057649,141.66474 56.0531715,134.184842 47.4399553,122.776108 L37.7878643,122.776108 C15.6503877,122.776108 3.11778034,132.040982 0.539482069,145.499132 C-2.93602622,163.603886 10.8526751,179.442004 28.334104,179.442004 L141.665896,179.442004 C159.147325,179.442004 172.936026,163.603886 169.460518,145.499132 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
